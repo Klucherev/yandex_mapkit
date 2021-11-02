@@ -16,6 +16,6 @@ class YandexMapObjectTapListener: NSObject, YMKMapObjectTapListener {
     ]
     controller.methodChannel.invokeMethod("onMapObjectTap", arguments: arguments)
 
-    return false
+    return true
   }
 }

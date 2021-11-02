@@ -27,6 +27,6 @@ public class YandexMapObjectTapListener implements MapObjectTapListener {
 
     controller.get().methodChannel.invokeMethod("onMapObjectTap", arguments);
 
-    return false;
+    return true;
   }
 }
