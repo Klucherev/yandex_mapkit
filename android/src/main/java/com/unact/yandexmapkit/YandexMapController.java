@@ -798,7 +798,7 @@ public class YandexMapController implements PlatformView, MethodChannel.MethodCa
 
       methodChannel.invokeMethod("onMapObjectTap", arguments);
 
-      return false;
+      return true;
     }
   }
 
