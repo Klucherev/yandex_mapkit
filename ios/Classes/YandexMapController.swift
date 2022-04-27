@@ -1,7 +1,7 @@
 import CoreLocation
 import Flutter
 import UIKit
-import YandexMapKit
+import YandexMapsMobile
 
 public class YandexMapController: NSObject, FlutterPlatformView {
   private let methodChannel: FlutterMethodChannel!
