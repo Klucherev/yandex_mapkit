@@ -1,7 +1,7 @@
 import CoreLocation
 import Flutter
 import UIKit
-import YandexMapsMobile
+import YandexMapKit
 
 public class SwiftYandexMapkitPlugin: NSObject, FlutterPlugin {
 
